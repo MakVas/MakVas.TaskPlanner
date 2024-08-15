@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner", "MakVas.TaskPlanner\MakVas.TaskPlanner.csproj", "{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.Domain.Models", "MakVas.TaskPlanner.Domain.Models\MakVas.TaskPlanner.Domain.Models.csproj", "{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.Domain.Logic", "MakVas.TaskPlanner.Domain.Logic\MakVas.TaskPlanner.Domain.Logic.csproj", "{8F5F8293-1F66-4A75-A851-8E3CED630D84}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
