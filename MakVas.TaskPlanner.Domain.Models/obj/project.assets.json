@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
+      "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
       "projectName": "MakVas.TaskPlanner.Domain.Models",
-      "projectPath": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
+      "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
       "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\obj\\",
+      "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config"

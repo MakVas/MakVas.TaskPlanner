@@ -5,13 +5,13 @@ namespace MakVas.TaskPlanner.Domain.Models;
 
 public class WorkItem
 {
-    private DateTime CreationDate;
-    private DateTime DueDate;
-    private Priority Priority;
-    private Complexity Complexity;
-    private string Title;
-    private string Description;
-    private bool IsCompleted;
+    public DateTime CreationDate { get; set; }
+    public DateTime DueDate { get; set; }
+    public Priority Priority { get; set; }
+    public Complexity Complexity { get; set; }
+    public string Title { get; set; }
+    public string Description { get; set; }
+    public bool IsCompleted { get; set; }
 
     public override string ToString()
     {

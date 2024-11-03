@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\MakVas.TaskPlanner.Domain.Models\MakVas.TaskPlanner.Domain.Models.csproj" />
+    </ItemGroup>
+
 </Project>

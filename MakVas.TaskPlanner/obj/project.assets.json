@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MakVas.TaskPlanner.Domain.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MakVas.TaskPlanner.Domain.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MakVas.TaskPlanner.Domain.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MakVas.TaskPlanner.Domain.Logic.dll": {}
+        }
+      },
+      "MakVas.TaskPlanner.Domain.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/MakVas.TaskPlanner.Domain.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MakVas.TaskPlanner.Domain.Models.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MakVas.TaskPlanner.Domain.Logic/1.0.0": {
+      "type": "project",
+      "path": "../MakVas.TaskPlanner.Domain.Logic/MakVas.TaskPlanner.Domain.Logic.csproj",
+      "msbuildProject": "../MakVas.TaskPlanner.Domain.Logic/MakVas.TaskPlanner.Domain.Logic.csproj"
+    },
+    "MakVas.TaskPlanner.Domain.Models/1.0.0": {
+      "type": "project",
+      "path": "../MakVas.TaskPlanner.Domain.Models/MakVas.TaskPlanner.Domain.Models.csproj",
+      "msbuildProject": "../MakVas.TaskPlanner.Domain.Models/MakVas.TaskPlanner.Domain.Models.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "MakVas.TaskPlanner.Domain.Logic >= 1.0.0",
+      "MakVas.TaskPlanner.Domain.Models >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\xdjmv\\.nuget\\packages\\": {}
@@ -13,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
+      "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
       "projectName": "MakVas.TaskPlanner",
-      "projectPath": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
+      "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
       "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\xdjmv\\RiderProjects\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\obj\\",
+      "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +69,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
+              "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj"
+            },
+            "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
+              "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
