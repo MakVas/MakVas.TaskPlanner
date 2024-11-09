@@ -6,6 +6,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.Domain.M
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.Domain.Logic", "MakVas.TaskPlanner.Domain.Logic\MakVas.TaskPlanner.Domain.Logic.csproj", "{8F5F8293-1F66-4A75-A851-8E3CED630D84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.DataAccess", "MakVas.TaskPlanner.DataAccess\MakVas.TaskPlanner.DataAccess.csproj", "{1D66526B-13EA-4244-8EFD-75DBBF1C3404}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.DataAccess.Abstractions", "MakVas.TaskPlanner.DataAccess.Abstractions\MakVas.TaskPlanner.DataAccess.Abstractions.csproj", "{32F79F81-D52B-41EE-ABE7-E6C3C7534045}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{02140D1E-167B-4421-82F3-F81D034C8497}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B4E8CBFC-2278-421C-8018-8C6A55239DB9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A0DEAA06-680E-43BC-9431-1B8F03969466}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +34,20 @@ Global
 		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F5F8293-1F66-4A75-A851-8E3CED630D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D66526B-13EA-4244-8EFD-75DBBF1C3404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D66526B-13EA-4244-8EFD-75DBBF1C3404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D66526B-13EA-4244-8EFD-75DBBF1C3404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D66526B-13EA-4244-8EFD-75DBBF1C3404}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C} = {A0DEAA06-680E-43BC-9431-1B8F03969466}
+		{1D66526B-13EA-4244-8EFD-75DBBF1C3404} = {02140D1E-167B-4421-82F3-F81D034C8497}
+		{32F79F81-D52B-41EE-ABE7-E6C3C7534045} = {02140D1E-167B-4421-82F3-F81D034C8497}
+		{8F5F8293-1F66-4A75-A851-8E3CED630D84} = {B4E8CBFC-2278-421C-8018-8C6A55239DB9}
+		{3E2B535E-35C5-4053-9BC4-9BD16FF6ABA1} = {B4E8CBFC-2278-421C-8018-8C6A55239DB9}
 	EndGlobalSection
 EndGlobal

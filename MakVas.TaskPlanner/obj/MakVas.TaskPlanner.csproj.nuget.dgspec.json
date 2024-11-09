@@ -4,22 +4,24 @@
     "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj": {}
   },
   "projects": {
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
-        "projectName": "MakVas.TaskPlanner.Domain.Logic",
-        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectName": "MakVas.TaskPlanner.DataAccess.Abstractions",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
         "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\obj\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,6 +38,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -57,7 +64,144 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\xdjmv\\.dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
+        "projectName": "MakVas.TaskPlanner.DataAccess",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
+        "projectName": "MakVas.TaskPlanner.Domain.Logic",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
+        "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj"
+              },
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -71,12 +215,14 @@
         "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -89,11 +235,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -110,7 +267,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\xdjmv\\.dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -124,18 +281,23 @@
         "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj"
+              },
               "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
                 "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj"
               },
@@ -149,11 +311,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -170,7 +343,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\xdjmv\\.dotnet\\sdk\\6.0.418\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "bggit8jbC2U=",
+  "dgSpecHash": "Gy7+w+qTL2w=",
   "success": true,
   "projectFilePath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\xdjmv\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
