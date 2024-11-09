@@ -16,6 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B4E8CB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{A0DEAA06-680E-43BC-9431-1B8F03969466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MakVas.TaskPlanner.Domain.Logic.Tests", "MakVas.TaskPlanner.Domain.Logic.Tests\MakVas.TaskPlanner.Domain.Logic.Tests.csproj", "{A3BAE356-71DC-48AC-A6D9-FD45124EE4A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +44,10 @@ Global
 		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32F79F81-D52B-41EE-ABE7-E6C3C7534045}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3BAE356-71DC-48AC-A6D9-FD45124EE4A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3BAE356-71DC-48AC-A6D9-FD45124EE4A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3BAE356-71DC-48AC-A6D9-FD45124EE4A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3BAE356-71DC-48AC-A6D9-FD45124EE4A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{596B8F53-37F5-481F-B7CE-B0C1BCF22D8C} = {A0DEAA06-680E-43BC-9431-1B8F03969466}
