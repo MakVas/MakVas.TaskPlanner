@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MakVas.TaskPlanner.Domain.Logic")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6135d2727eb003a0bfecd7f825641f84801d8cdf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97044579843e135ca82d98e93a49f172bbdc959b")]
 [assembly: System.Reflection.AssemblyProductAttribute("MakVas.TaskPlanner.Domain.Logic")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MakVas.TaskPlanner.Domain.Logic")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

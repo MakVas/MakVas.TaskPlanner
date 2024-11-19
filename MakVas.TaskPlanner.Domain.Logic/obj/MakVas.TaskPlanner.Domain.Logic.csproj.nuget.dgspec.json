@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {}
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {}
   },
   "projects": {
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
         "projectName": "MakVas.TaskPlanner.DataAccess.Abstractions",
-        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj",
         "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\obj\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
         "projectName": "MakVas.TaskPlanner.DataAccess",
-        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj",
         "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\obj\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -98,8 +98,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
-                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj"
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess.Abstractions\\MakVas.TaskPlanner.DataAccess.Abstractions.csproj"
               }
             }
           }
@@ -144,14 +144,14 @@
         }
       }
     },
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
         "projectName": "MakVas.TaskPlanner.Domain.Logic",
-        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Logic\\MakVas.TaskPlanner.Domain.Logic.csproj",
         "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Logic\\obj\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -168,11 +168,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
-                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj"
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.DataAccess\\MakVas.TaskPlanner.DataAccess.csproj"
               },
-              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
-                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
+              "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
+                "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj"
               }
             }
           }
@@ -221,14 +221,14 @@
         }
       }
     },
-    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
+    "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
+        "projectUniqueName": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
         "projectName": "MakVas.TaskPlanner.Domain.Models",
-        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
+        "projectPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\MakVas.TaskPlanner.Domain.Models.csproj",
         "packagesPath": "C:\\Users\\xdjmv\\.nuget\\packages\\",
-        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.Domain.Models\\obj\\",
+        "outputPath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner.Domain.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\xdjmv\\AppData\\Roaming\\NuGet\\NuGet.Config",

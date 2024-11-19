@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MakVas.TaskPlanner.Domain.Models
-build_property.ProjectDir = C:\vntu\MyVNTU\3_kurs\dotnet\lab1\MakVas.TaskPlanner\MakVas.TaskPlanner.Domain.Models\
+build_property.ProjectDir = C:\vntu\MyVNTU\3_kurs\dotnet\lab1\MakVas.TaskPlanner.Domain.Models\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

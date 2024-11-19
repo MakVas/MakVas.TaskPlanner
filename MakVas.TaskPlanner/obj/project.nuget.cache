@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s9AApojnCF0=",
+  "dgSpecHash": "jZkMiornFaw=",
   "success": true,
-  "projectFilePath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
+  "projectFilePath": "C:\\vntu\\MyVNTU\\3_kurs\\dotnet\\lab1\\MakVas.TaskPlanner\\MakVas.TaskPlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xdjmv\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\xdjmv\\.nuget\\packages\\moq\\4.20.72\\moq.4.20.72.nupkg.sha512",

@@ -1,4 +1,4 @@
-﻿using Moq;
+using Moq;
 using MakVas.TaskPlanner.Domain.Models;
 using MakVas.TaskPlanner.Domain.Models.Enums;
 using MakVas.TaskPlanner.DataAccess.Abstractions;
